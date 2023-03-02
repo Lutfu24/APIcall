@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      text-align: center;
+      background-color: #8156c9;
+    }
+    .table {
+      border-collapse: collapse;
+    }
+    .theader {
+      background-color: rgb(35, 31, 31);
+      color: white;
+    }
+    .theader th {
+      padding: 5px 50px;
+    }
+    .tbody{
+        background-color: white;
+    }
+    .tbody td{
+padding: 10px 20px;
+    }
+    .btn{
+        padding: 5px 20px;
+        margin-left: 20px;
+        border-radius: 5px;
+        background-color: #014f39c5;
+        color: white;
+        border: none;
+    }
+  </style>
+  <body>
+    <table class="table">
+      <thead class="theader">
+        <tr>
+          <th>ID</th>
+          <th>Name</th>
+          <th>Username</th>
+          <th>Email</th>
+          <th>Street</th>
+          <th>City</th>
+        </tr>
+      </thead>
+      <tbody class="tbody"></tbody>
+    </table>
+
+    <button class="btn" type="button">Call data</button>
+
+    <script src="./main.js"></script>
+  </body>
+</html>
